@@ -1,0 +1,28 @@
+.Cart{
+    width: 800px;
+    height: 50px;
+  
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.Cart:hover{
+    box-shadow: 5px 2px 10px black;
+    transition:1s;
+}
+/* .cartImg{
+    width: 25px;
+    height: 49px;
+} */
+.cartImg img{
+    width: 25px;
+    height: 49px;
+}
+.detail{
+    width: 300px;
+    height: 49px;
+    display: flex;
+}
+.buttons{
+    display: flex;
+}
